@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4656087932789423024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4656087932789423031}
+  - component: {fileID: 4656087932789423030}
+  m_Layer: 0
+  m_Name: WorldCreator
+  m_TagString: ChunkManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4656087932789423031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4656087932789423024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4656087932789423030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4656087932789423024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41c068e22bcb434f95f4204b4cf846c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seed:
+    _useConstant: 0
+    _constantValue: {x: 0, y: 0}
+    _variable: {fileID: 11400000, guid: c7ab15289e130bd49bf387acdff465ed, type: 2}
+  terrainMaterialsFull:
+  - {fileID: 2100000, guid: 6c33f10a3cfeda74b9d8db4a76e4f478, type: 2}
+  - {fileID: 2100000, guid: 1b4ad8ca7712a3848b0c3e887f3568b0, type: 2}
+  chunkSize: 50
+  chunkDist:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 97601d18c49ce3444bcf2f5250a97c8c, type: 2}
+  propManager: {fileID: 11400000, guid: c6b589b7cb2fdef459d59f9114a32f98, type: 2}
+  villageIndex: 2
+  campIndex: 0
+  castleIndex: 1
+  player: {fileID: 0}
+  playerPrefab: {fileID: 2640752265582699656, guid: 29288633a5c00754ea1563a5d8ddae9f, type: 3}
+  newWorld: 1
+  saveName:
+    _useConstant: 0
+    _constantValue: 
+    _variable: {fileID: 11400000, guid: da6344b1eb7ce2c48ba3eb6071b5e1cf, type: 2}
+  worldName:
+    _useConstant: 0
+    _constantValue: 
+    _variable: {fileID: 11400000, guid: 14741a485a9f46944950da91c45f2168, type: 2}
+  camera: {fileID: 0}

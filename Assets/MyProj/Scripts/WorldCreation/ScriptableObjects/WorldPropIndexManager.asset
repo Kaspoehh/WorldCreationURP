@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f6e26bbf78c184eb9c7d43ea39292a, type: 3}
+  m_Name: WorldPropIndexManager
+  m_EditorClassIdentifier: 
+  PropsForInWorld:
+  - PropPrefab: {fileID: 151092, guid: 06ebc983dafd5034dac12cc794e12fdc, type: 3}
+    PropIndex: 0
+  - PropPrefab: {fileID: 135512, guid: 663fd3fcb0cd4fe4f8316a05b83dc575, type: 3}
+    PropIndex: 1
+  - PropPrefab: {fileID: 1667885095536142, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
+    PropIndex: 2
+  TreesForInWorld:
+  - PropPrefab: {fileID: 7990842717870125400, guid: 79d04eb1ecfb2d741a1da8434557a623, type: 3}
+    PropIndex: 3
+  - PropPrefab: {fileID: 7559505531904761941, guid: e5c358a373d2fa840a2b94c42d8966af, type: 3}
+    PropIndex: 4
+  - PropPrefab: {fileID: 4218232586139469735, guid: f2ea49d0a51aea045a19d9ba5770c9df, type: 3}
+    PropIndex: 5
+  - PropPrefab: {fileID: 410240931052885714, guid: 375204e43ad118e4bbc83b27192e3946, type: 3}
+    PropIndex: 6
+  - PropPrefab: {fileID: 6797097412233683701, guid: b10cc6f9768e47f48814e5902fe068eb, type: 3}
+    PropIndex: 7
+  - PropPrefab: {fileID: 8405033364528097114, guid: e5a5fd945677a3f43bc08c44bf38e61f, type: 3}
+    PropIndex: 8
+  - PropPrefab: {fileID: 7760306153369501323, guid: 84d3236b8e04fd042b4f2e14744e2af7, type: 3}
+    PropIndex: 9
+  - PropPrefab: {fileID: 157077674188075797, guid: a73e9680647acdd40b863c4b6d3982b0, type: 3}
+    PropIndex: 10
+  - PropPrefab: {fileID: 157077674188075797, guid: a73e9680647acdd40b863c4b6d3982b0, type: 3}
+    PropIndex: 11
+  - PropPrefab: {fileID: 157077674188075797, guid: a73e9680647acdd40b863c4b6d3982b0, type: 3}
+    PropIndex: 12
