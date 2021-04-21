@@ -35,4 +35,9 @@ public class PlayerManager : MonoBehaviour
         GameObject.FindWithTag("ChunkManager").GetComponent<ChunkManager>().Save(true);
     }
     
+    public void Save()
+    {
+        GameObject.FindWithTag("ChunkManager").GetComponent<ChunkManager>().Save(false);
+    }
+    
 }
